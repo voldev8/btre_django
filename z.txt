@@ -15,3 +15,10 @@ django-admin startproject btre .
 
 #start the server
 python manage.py runserver
+
+#creates pages folder app(folder)
+python manage.py startapp pages
+
+#creates the static folder on root
+python manage.py collectstatic
+
