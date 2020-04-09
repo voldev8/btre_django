@@ -1,0 +1,14 @@
+#to create the virtual environment
+python -m virtualenv ./venv 
+
+#start it
+./venv/Scripts/activate
+
+#install django into environment
+pip install django 
+
+#django commands
+django-admin help
+
+#start project create btre folder plus manage.py
+django-admin startproject btre .
