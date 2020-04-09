@@ -12,3 +12,6 @@ django-admin help
 
 #start project create btre folder plus manage.py
 django-admin startproject btre .
+
+#start the server
+python manage.py runserver
